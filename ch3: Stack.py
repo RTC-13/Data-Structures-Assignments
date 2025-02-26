@@ -34,7 +34,7 @@ class Stack:
         new_array = []
         while not self.isEmpty():
             new_array.append(self.pop())
-        print("Reversed:", new_array)
+        return new_array
 
 
 # Function to input the above data list from the keyboard
@@ -57,4 +57,6 @@ if __name__ == "__main__":
     for num in user_input:
         new_stack.push(num)
 
-    new_stack.reverseStack()
+    reversed_array = new_stack.reverseStack()
+
+    print("Reversed: ", reversed_array)
