@@ -1,4 +1,3 @@
-
 class Phonebook:
 
   def __init__(self):
@@ -23,16 +22,17 @@ class Phonebook:
 
 if __name__ == "__main__":
   book = Phonebook()
-  book.add("Robert", 9292470857)
-  book.add("Roberts", 92924708572)
+  book.add("Robert", 516273273)
+  book.add("Roberts", 5162732733)
   print(book.__str__())
   
   search = book.search("John")
   print("Search result: ", search)
+  search = book.search("Robert")
+  print("Search result:", search)
 
   book.delete("Robert")
   print(book.__str__())
 
-  book.add("Roberts", 92924208572)
+  book.add("Roberts", 516273273212)
   print(book.__str__())
-
