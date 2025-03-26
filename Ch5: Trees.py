@@ -46,5 +46,5 @@ if __name__ == "__main__":
     root = insertPreorder(root, 6)
 
     #  2 Displaying Postorder traversal (left-right-currrent)
-    print("Postorder traversal after insertion: ", end="")
+    print("Postorder traversal: ", end="")
     printPostorder(root)
